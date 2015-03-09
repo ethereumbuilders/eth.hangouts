@@ -48,21 +48,11 @@ postSchemaObject = {
     autoform: {
       editable: true,
       options: [
-        {label: "Show and Tell Hangout", value: "http://codebuddies.org/demo-hangout"},
-        {label: "HTML/CSS Hangout", value: "http://codebuddies.org/htmlcss-hangout"},
-        {label: "Python Hangout", value: "http://codebuddies.org/python-hangout"},
-        {label: "Javascript Hangout", value: "http://codebuddies.org/javascript-hangout"},
-        {label: "MeteorJS Hangout", value: "http://codebuddies.org/meteor-hangout"},
-        {label: "Flask Hangout", value: "http://codebuddies.org/flask-hangout"},
-        {label: "Django Hangout", value: "http://codebuddies.org/django-hangout"},
-        {label: "Ruby on Rails Hangout", value: "http://codebuddies.org/rails-hangout"},
-        {label: "Problem Solving Hangout", value: "http://codebuddies.org/problemsolving-hangout"},
-        {label: "Git Hangout", value: "http://codebuddies.org/git-hangout"},
-        {label: "Real Python Hangout", value: "http://codebuddies.org/realpython-hangout-2"},
-        {label: "Learn X the Hard Way Hangout", value: "http://codebuddies.org/learnhardway-hangout-2"},
-        {label: "The Odin Project Hangout", value: "http://codebuddies.org/odinproject-hangout"},
-        {label: "Discover Meteor Hangout", value: "http://codebuddies.org/discovermeteor-hangout"}
-      ]
+        {label: "Show and Tell Hangout", value: "http://ethereum.builders/show-and-tell/hangout.html"},
+        {label: "Silent Hangout", value: "http://ethereum.builders/silent/hangout.html"},
+        {label: "Install Fest Hangout", value: "http://ethereum.builders/installfest/hangout.html"},
+        
+              ]
     }
   },
   title: {
