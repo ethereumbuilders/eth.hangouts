@@ -62,8 +62,8 @@ content: "\2014 \2009";
 }
 
 .herotext { 
-	margin-bottom: 15px; background: rgba(0,0,0,0.8);
-	h3, p {color: white;}
+	margin-bottom: 15px; background: rgba(226, 227, 228, 0.6);
+	h3, p {color: black;}
 	a { color: dodgerblue;}
 	font-size: 1.1rem;
 	h3 { font-size: 1.4rem;}
@@ -107,7 +107,7 @@ div.inner-wrapper { background: #eee; }
 
 
 div.inner-wrapper {background: none; }
-body {background: url(//codebuddies.org/images/city.jpg) no-repeat center center fixed; background-size: cover; }
+/* body {background: url(//codebuddies.org/images/city.jpg) no-repeat center center fixed; background-size: cover; } */
 
 
 span.message-joined { color: rgba(122,192,228,0.8);}

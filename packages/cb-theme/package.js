@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "CB theme",
+  summary: "EB theme",
   version: '0.1.0',
   name: "cb-theme"
 });
