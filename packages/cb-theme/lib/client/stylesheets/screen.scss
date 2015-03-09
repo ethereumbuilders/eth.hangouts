@@ -26,6 +26,41 @@ ul.hero-menu {
 	}
 }
 
+/* Edit Aurel */
+
+blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.25em 40px;
+line-height: 1.45;
+position: relative;
+color: #383838;
+}
+
+blockquote:before {
+display: block;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+color: #7a7a7a;
+}
+
+blockquote cite {
+color: #999999;
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+blockquote cite:before {
+content: "\2014 \2009";
+}
+
 .herotext { 
 	margin-bottom: 15px; background: rgba(0,0,0,0.8);
 	h3, p {color: white;}
@@ -38,7 +73,7 @@ ul.hero-menu {
 	display: block;
 	padding: 10px;
 	text-align: center;
-	background: rgba(28,160,96,0.8);
+	background: rgba(60, 157, 252, 1);
 	border-radius: 3px;
 	text-transform: uppercase;
 	width: 100%;
