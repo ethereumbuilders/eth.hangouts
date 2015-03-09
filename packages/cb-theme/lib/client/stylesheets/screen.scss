@@ -2,7 +2,7 @@ h3 { margin: 10px 0; color: #4e555d; font-weight: light;}
 ol {padding-left: 5%; list-style-type: decimal; margin: 10px 0;}
 p { 
 	margin: 10px auto;
-	line-height: 1.1;
+/* 	line-height: 1.1; */
 }
 .post-heading { 
 	a.post-title:link, a.post-title:visited {
@@ -28,6 +28,9 @@ ul.hero-menu {
 
 /* Edit Aurel */
 
+.logo-image img {
+  height: 82%!important;
+}
 blockquote {
 font-family: Georgia, serif;
 font-size: 18px;
@@ -131,7 +134,7 @@ a#submit.top-submit {text-transform: uppercase; font-weight: bold !important; ba
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		overflow: hidden;
-		width: 7em;
+/* 		width: 7em; */
 		display: block;
 		top: 7px;
 		position: relative;
