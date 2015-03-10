@@ -19,6 +19,7 @@ Template[getTemplate('userInfo')].helpers({
   getGitHubName: function () {
     return getGitHubName(this);
   }
+  
 });
 
 Template[getTemplate('userInfo')].events({

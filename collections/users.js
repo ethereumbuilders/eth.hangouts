@@ -26,6 +26,10 @@ var userSchemaObject = {
     optional: true,
     blackbox: true
   },
+  btc: {
+	type: String,
+	optional: true  
+  },
   data: { // public but not modifiable
     type: Object,
     optional: true,
