@@ -1,4 +1,4 @@
- // ------------------------------------- Schemas -------------------------------- //
+// ------------------------------------- Schemas -------------------------------- //
 
 // array containing properties to be added to the post/settings/comments schema on startup.
 addToPostSchema = [];
@@ -122,13 +122,13 @@ viewParameters.baseParameters = {
 
 viewParameters.top = function (terms) {
   return {
-    options: {sort: {scheduledAt: -1, sticky: -1}}
+    options: {sort: {sticky: -1, score: -1}}
   };
 }
 
 viewParameters.new = function (terms) {
   return {
-    options: {sort: {sticky: -1, votedAt: -1}}
+    options: {sort: {sticky: -1, postedAt: -1}}
   };
 }
 
@@ -148,10 +148,10 @@ viewParameters.pending = function (terms) {
   };
 }
 
-viewParameters.scheduledAt = function (terms) {
+viewParameters.scheduled = function (terms) {
   return {
-    find: {scheduledAt: {$gte: new Date()}},
-    options: {sort: {scheduledAt: -1}}
+    find: {postedAt: {$gte: new Date()}},
+    options: {sort: {postedAt: -1}}
   };
 }
 
@@ -177,7 +177,7 @@ viewParameters.userDownvotedPosts = function (terms) {
   // TODO: sort based on votedAt timestamp and not postedAt, if possible
   return {
     find: {_id: {$in: postsIds}},
-    options: {limit: 5, sort: {scheduledAt: -1}}
+    options: {limit: 5, sort: {postedAt: -1}}
   };
 }
 

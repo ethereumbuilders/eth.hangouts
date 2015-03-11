@@ -1,4 +1,4 @@
-Package.describe({summary: "EB Recently Scheduled View"});
+Package.describe({summary: "CB Recently Scheduled View"});
 
 Package.on_use(function (api) {
 

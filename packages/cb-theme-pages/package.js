@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "EthereumBuilders theme pages package",
+  summary: "CodeBuddies theme pages package",
   version: '0.1.0',
   name: "cb-theme-pages"
 });
