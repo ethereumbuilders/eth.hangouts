@@ -133,13 +133,13 @@
 
   // Post submit & edit
   "created": "Created",
-  "title": "STUDY SESSION TOPIC",
+  "title": "Ethereum Session Topic",
   "scheduledFor": "Start time",
   "scheduledEnd": "End time",
   "suggest_title": "Suggest title",
-  "url": "Google Hangout Room",
+  "url": "Hangout Room",
   "short_url": "Short URL",
-  "body": "[DESCRIPTION] What do you hope to cover or master? Are there any prerequisites you require of participants? Is this a \"silent hangout\"?",
+  "body": "[Description]\r\nWhat do you hope to cover or master? Are there any prerequisites you require of participants? Is this a \"silent hangout\"?",
   "category": "Category",
   "inactive_": "Inactive?",
   "sticky_": "Sticky?",

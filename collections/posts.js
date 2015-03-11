@@ -48,9 +48,11 @@ postSchemaObject = {
     autoform: {
       editable: true,
       options: [
-        {label: "Show and Tell Hangout", value: "http://ethereum.builders/show-and-tell/hangout.html"},
-        {label: "Silent Hangout", value: "http://ethereum.builders/silent/hangout.html"},
-        {label: "Install Fest Hangout", value: "http://ethereum.builders/installfest/hangout.html"},
+        {label: "Show and Tell", value: "http://ethereum.builders/show-and-tell/hangout.html"},
+        {label: "Silent", value: "http://ethereum.builders/silent/hangout.html"},
+        {label: "Install Fest", value: "http://ethereum.builders/installfest/hangout.html"},
+        {label: "Never Ending Coworking", value: "http://ethereum.builders/neverending/hangout.html"},
+        {label: "Meetup Sync", value: "http://ethereum.builders/meetup-sync/hangout.html"}
         
               ]
     }
