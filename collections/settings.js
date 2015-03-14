@@ -72,7 +72,7 @@ settingsSchemaObject = {
       instructions: 'MAIL_URL environment variable (requires restart).',
       private: true
     }
-  },  
+  },
   scoreUpdateInterval: {
     type: Number,
     optional: true,
@@ -351,10 +351,14 @@ settingsSchemaObject = {
         {
           value: 'facebook',
           label: 'Facebook'
+        },
+        {
+          value: 'github',
+          label: 'Github'
         }
       ],
       instructions: 'Authentication methods (default to email only)'
-    }    
+    }
   }
 };
 
