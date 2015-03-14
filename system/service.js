@@ -1,4 +1,4 @@
-ServiceConfiguration.configurations.upsert(
+/*ServiceConfiguration.configurations.upsert(
   { service: "github" },
   {
     $set: {
@@ -17,4 +17,4 @@ ServiceConfiguration.configurations.upsert(
       secret: "secret client id"
     }
   }
-);
+);*/
