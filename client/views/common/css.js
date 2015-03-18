@@ -1,8 +1,8 @@
 Template[getTemplate('css')].helpers({
   hideAuthClass: function () {
-    
+
     var authClass = '';
-    var authMethods = getSetting('authMethods', ["email"]);
+    var authMethods = getSetting('authMethods', ["email","twitter","github"]);
     var selectors = [
       {name: 'email', selector: ".at-pwd-form"},
       {name: 'twitter', selector: "#at-twitter"},
