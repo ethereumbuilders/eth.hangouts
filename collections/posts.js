@@ -51,10 +51,10 @@ postSchemaObject = {
         {label: "Show and Tell", value: "http://ethereum.builders/show-and-tell/hangout.html"},
         {label: "Silent", value: "http://ethereum.builders/silent/hangout.html"},
         {label: "Install Fest", value: "http://ethereum.builders/installfest/hangout.html"},
-        {label: "Never Ending Coworking", value: "http://ethereum.builders/neverending/hangout.html"},
+        {label: "Crypto Research", value: "http://ethereum.builders/crypto-research/hangout.html"},
         {label: "Meetup Sync", value: "http://ethereum.builders/meetup-sync/hangout.html"}
-        
-              ]
+
+      ]
     }
   },
   title: {
@@ -476,7 +476,7 @@ Meteor.methods({
     return submitPost(post);
   },
 
-  editPost: function (post, modifier, postId) {
+  editPost: function (modifier, postId) {
 
     var user = Meteor.user(),
         hasAdminRights = isAdmin(user);
@@ -515,10 +515,10 @@ Meteor.methods({
 
     // ------------------------------ Callbacks ------------------------------ //
 
-    // run all post submit server callbacks on modifier object successively
-    modifier = postAfterEditMethodCallbacks.reduce(function(result, currentFunction) {
-        return currentFunction(result);
-    }, modifier);
+    // run all post after edit method callbacks successively
+    postAfterEditMethodCallbacks.forEach(function(currentFunction) {
+      currentFunction(modifier, postId);
+    });
 
     // ------------------------------ After Update ------------------------------ //
 
