@@ -19,6 +19,8 @@ Package.onUse(function (api) {
   api.add_files([
     'lib/client/templates/about_page.html',
     'lib/client/templates/about_link.html',
+    'lib/client/templates/our_values.html',
+    'lib/client/templates/values_link.html',
     'lib/client/templates/hero_page.html',
     'lib/client/templates/new_hero_page.js',
     'lib/client/templates/new_post_domain.html',

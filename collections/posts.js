@@ -51,8 +51,10 @@ postSchemaObject = {
         {label: "Show and Tell", value: "http://ethereum.builders/show-and-tell/hangout.html"},
         {label: "Silent", value: "http://ethereum.builders/silent/hangout.html"},
         {label: "Install Fest", value: "http://ethereum.builders/installfest/hangout.html"},
-        {label: "Crypto Research", value: "http://ethereum.builders/crypto-research/hangout.html"},
-        {label: "Meetup Sync", value: "http://ethereum.builders/meetup-sync/hangout.html"}
+        {label: "Blockchain Research", value: "http://ethereum.builders/crypto-research/hangout.html"},
+        {label: "Meetup Sync", value: "http://ethereum.builders/meetup-sync/hangout.html"},
+        {label: "Lounge", value: "http://ethereum.builders/lounge/hangout.html"},
+        {label: "Presentation", value: "http://ethereum.builders/presentation/hangout.html"}
 
       ]
     }
