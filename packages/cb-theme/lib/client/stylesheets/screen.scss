@@ -27,6 +27,22 @@ ul.hero-menu {
 }
 
 /* Edit Aurel */
+.header .nav>li:last-child .header-submodule { margin-right: 20px; }
+/*Leaderboard*/
+.template-coCreators, .template-aboutPage {
+  .content-wrapper {
+    max-width: 95%;
+    padding: 20px 35px 45px 35px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: rgba(255,255,255,1.0);
+    border-radius: 1px;
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, .15);
+ }
+ th { text-align: left;}
+ .grid, .grid-module { background: none; max-width: none;} //overrides for the FAQ page
+}
+
 
 .homeP {
 	text-align: center;
@@ -168,7 +184,7 @@ a#submit.top-submit {text-transform: uppercase; font-weight: bold !important; ba
 .post-discuss {display: none;}
 
 
-.more-button span { background: dodgerblue; color: white; padding: 10px;}
+.more-button span { background: #5c89b3; color: white; padding: 10px;}
 
 .post-content { width: 75%; }
 .upvote-link.voted, .post-upvote { width: 180px; }

@@ -9,16 +9,6 @@ Meteor.startup(function() {
 	});
 });
 
-Meteor.startup(function() {
-	Router.map(function() {
-		this.route('values', {
-			path: '/values',
-			template: getTemplate('ourValues')
-		});
-	});
-});
-
-
 
 
 heroModules.push({
@@ -72,9 +62,9 @@ upvoteCallbacks.push(function (collection, item, user) {
 });
 
 //console.log(upvoteCallbacks);
-
 primaryNav.push({template: 'aboutLink'});
 primaryNav.push({template: 'valuesLink'});
+
 
 
 

@@ -19,6 +19,7 @@ Package.onUse(function (api) {
   api.add_files([
     'lib/client/templates/about_page.html',
     'lib/client/templates/about_link.html',
+    'lib/client/templates/co-creators.html',
     'lib/client/templates/our_values.html',
     'lib/client/templates/values_link.html',
     'lib/client/templates/hero_page.html',
@@ -35,7 +36,10 @@ Package.onUse(function (api) {
     'lib/client/templates/new_post_info.js',
     'lib/client/templates/new_post_author.html',
     'lib/client/templates/new_submit_button.html',
-    'lib/client/about.js'
+    'lib/client/about.js',
+
+    'lib/client/templates/co-creators.js',
+    'lib/client/templates/co-creators_link.html'
   ], ['client']);
 
   api.add_files([

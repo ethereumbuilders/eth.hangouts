@@ -9,3 +9,4 @@ ReactiveTable.publish("all-users", function() {
     return [];
   }
 });
+
