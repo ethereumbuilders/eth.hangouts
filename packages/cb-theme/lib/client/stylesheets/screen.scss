@@ -26,9 +26,11 @@ ul.hero-menu {
 	}
 }
 
+.hoa {margin:0px 2.2vw;}
 /* Edit Aurel */
 .header .nav>li:last-child .header-submodule { margin-right: 20px; }
-/*Leaderboard*/
+
+/*Co-creators*/
 .template-coCreators, .template-aboutPage {
   .content-wrapper {
     max-width: 95%;
@@ -43,7 +45,7 @@ ul.hero-menu {
  .grid, .grid-module { background: none; max-width: none;} //overrides for the FAQ page
 }
 
-
+form .form-actions .button {background: #DD3416;}
 .homeP {
 	text-align: center;
 }
@@ -139,9 +141,7 @@ div.inner-wrapper { background: #eee; }
 }
 
 
-
 div.inner-wrapper {background: none; }
-/* body {background: url(//codebuddies.org/images/city.jpg) no-repeat center center fixed; background-size: cover; } */
 
 
 span.message-joined { color: rgba(122,192,228,0.8);}
@@ -183,7 +183,7 @@ a#submit.top-submit {text-transform: uppercase; font-weight: bold !important; ba
 .categories-menu, .views-menu { display: none;}
 .post-discuss {display: none;}
 
-
+.more-button {background: rgba(2,0,0,0.84)!important;}
 .more-button span { background: #5c89b3; color: white; padding: 10px;}
 
 .post-content { width: 75%; }
@@ -234,6 +234,7 @@ form div.controls {
 .btn-primary .submit {
   background: #1E90FF!important;
 }
+
 
 .grid-module, .at-form { background: rgba(255, 255, 255, 0.85)}
 .post-body { background: rgba(255, 255, 255, 0.85)!important;}
