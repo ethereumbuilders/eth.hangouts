@@ -25,7 +25,7 @@ meteorhacks:fast-render
 meteorhacks:subs-manager
 meteorhacks:npm
 
-aldeed:autoform@5.0.0
+aldeed:autoform@5.1.0
 aldeed:collection2
 aldeed:simple-schema
 
@@ -71,7 +71,6 @@ telescope-search
 telescope-tags
 telescope-theme-hubble
 telescope-email
-telescope-embedly
 telescope-newsletter
 telescope-daily
 telescope-update-prompt
