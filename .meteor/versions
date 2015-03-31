@@ -33,6 +33,7 @@ deps@1.0.7
 djedi:sanitize-html@1.6.1
 ejson@1.0.6
 email@1.0.6
+ethereum:js@0.2.1
 facebook@1.1.4
 fastclick@1.0.3
 fourseven:scss@1.0.0
