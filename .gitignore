@@ -1,5 +1,6 @@
 npm-debug.log
 *.scssc
+*.css
 .sass-cache/*
 .DS_Store
 *-ck.js
@@ -14,7 +15,9 @@ config.rb
 deploy.sh
 
 .demeteorized
-
+public/
+packages/cb-theme/lib/client/stylesheets/
+packages/cb-theme-pages/lib/client/templates/
 dump/
 dump/*
 
