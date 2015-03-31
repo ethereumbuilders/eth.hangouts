@@ -10,6 +10,7 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/client/stylesheets/screen.scss',
+    'lib/client/stylesheets/plexus.css',
     ], ['client']);
 
 });

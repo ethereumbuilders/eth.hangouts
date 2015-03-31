@@ -20,6 +20,9 @@ Package.onUse(function (api) {
     'lib/client/templates/about_page.html',
     'lib/client/templates/about_link.html',
     'lib/client/templates/co-creators.html',
+    'lib/client/templates/plexus.html',
+    'lib/client/templates/plexus.js',
+    'lib/client/templates/plexus_link.html',
     'lib/client/templates/our_values.html',
     'lib/client/templates/values_link.html',
     'lib/client/templates/hero_page.html',
@@ -37,7 +40,7 @@ Package.onUse(function (api) {
     'lib/client/templates/new_post_author.html',
     'lib/client/templates/new_submit_button.html',
     'lib/client/about.js',
-
+    'lib/client/plexus.js',
     'lib/client/templates/co-creators.js',
     'lib/client/templates/co-creators_link.html'
   ], ['client']);

@@ -9,6 +9,15 @@ Meteor.startup(function() {
 	});
 });
 
+Meteor.startup(function() {
+	Router.map(function() {
+		this.route('values', {
+			path: '/values',
+			template: getTemplate('ourValues')
+		});
+	});
+});
+
 
 
 heroModules.push({
@@ -46,6 +55,7 @@ templates["postTitle"] = "newPostTitle";
 templates["postAuthor"] = "newPostAuthor";
 templates["postInfo"] = "newPostInfo";
 templates["submitButton"] = "newSubmitButton";
+templates["eth"] = "eth";
 
 var i = primaryNav.indexOf("viewsMenu");
 if(i != -1) {
