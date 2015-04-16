@@ -5,6 +5,9 @@ Template[getTemplate('layout')].helpers({
   nav: function () {
     return getTemplate('nav');
   },
+  navLayout: function () {
+    return Settings.get('navLayout', 'top-nav');
+  },
   messages: function () {
     return getTemplate('messages');
   },
@@ -21,7 +24,11 @@ Template[getTemplate('layout')].helpers({
     return getTemplate('css');
   },
   extraCode: function() {
+<<<<<<< HEAD
     return getSetting('extraCode');
+=======
+    return Settings.get('extraCode');
+>>>>>>> upstream/master
   },
   heroModules: function () {
     return _.sortBy(heroModules, 'order');
@@ -45,7 +52,7 @@ Template[getTemplate('layout')].rendered = function(){
   var link = document.createElement('link');
   link.type = 'image/x-icon';
   link.rel = 'shortcut icon';
-  link.href = getSetting('faviconUrl', '/img/favicon.ico');
+  link.href = Settings.get('faviconUrl', '/img/favicon.ico');
   document.getElementsByTagName('head')[0].appendChild(link);
 
 };

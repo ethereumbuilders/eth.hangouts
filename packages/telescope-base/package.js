@@ -6,33 +6,43 @@ Package.onUse(function (api) {
   api.imply(['aldeed:simple-schema']);
 
   api.add_files(['lib/base.js'], ['client', 'server']);
-  api.add_files(['lib/base_client.js'], ['client']);
-  api.add_files(['lib/base_server.js'], ['server']);
+  api.add_files(['lib/colors.js'], ['client', 'server']);
+  api.add_files(['lib/icons.js'], ['client', 'server']);
 
   api.export([
     'postStatuses',
     'STATUS_PENDING',
     'STATUS_APPROVED',
     'STATUS_REJECTED',
-    
-    'adminMenu', 
-    'viewsMenu', 
+
+    'adminMenu',
+    'viewsMenu',
+    'userMenu',
+
     'addToPostSchema', 
     'addToCommentsSchema', 
     'addToSettingsSchema', 
     'addToUserSchema',
+    
+    'registerPostProperty',
+    'registerCommentProperty',
+    'registerSetting',
+    'registerUserProperty',
+
     'preloadSubscriptions', 
     'primaryNav', 
     'secondaryNav', 
+    'mobileNav',
     'viewParameters',
+
     'footerModules',
     'heroModules',
     'threadModules',
+    'postListTopModules',
     'postModules',
     'postThumbnail',
     'postHeading',
     'postMeta',
-    'modulePositions',
 
     'postClassCallbacks',
 
@@ -42,7 +52,7 @@ Package.onUse(function (api) {
     'postAfterSubmitMethodCallbacks',
 
     'postApproveCallbacks',
-    
+
     'postEditRenderedCallbacks',
     'postEditClientCallbacks',
     'postEditMethodCallbacks',
@@ -68,17 +78,30 @@ Package.onUse(function (api) {
     'downvoteMethodCallbacks',
     'cancelUpvoteMethodCallbacks',
     'cancelDownvoteMethodCallbacks',
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> upstream/master
     'userEditRenderedCallbacks',
     'userEditClientCallbacks',
     'userProfileCompleteChecks',
     'userProfileDisplay',
     'userProfileEdit',
     'userCreatedCallbacks',
-    
+
     'getTemplate',
     'templates',
 
+<<<<<<< HEAD
+=======
+    'getIcon',
+    'icons',
+
+    'colorTable',
+    'registerElementColor',
+
+>>>>>>> upstream/master
     'themeSettings',
 
     'getVotePower'

@@ -29,6 +29,11 @@ Meteor.startup(function () {
   importRelease('0.14.1');
   importRelease('0.14.2');
   importRelease('0.14.3');
+<<<<<<< HEAD
+=======
+  importRelease('0.15.0');
+  importRelease('0.15.1');
+>>>>>>> upstream/master
   
   // if this is before the first run, mark all release notes as read to avoid showing them
   if (!Events.findOne({name: 'firstRun'})) {
