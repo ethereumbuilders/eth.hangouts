@@ -1,18 +1,4 @@
 <template name="postAvatars">
-<<<<<<< HEAD
-  <a href="{{profileUrl userId}}" class="avatar-link avatar-small author-avatar" aria-hidden="true">
-    {{> avatar userId=userId shape="circle"}}
-  </a>
-  {{#if commenters}}
-    <div class="post-commenters">
-    {{#each commenters}}
-      <a href="{{profileUrl this}}" class="avatar-link avatar-small commenter-avatar" aria-hidden="true">
-        {{> avatar userId=this shape="circle"}}
-      </a>
-    {{/each}}
-    </div>
-  {{/if}}
-=======
   <div aria-hidden="true" aria-live="off">
     <a href="{{profileUrl userId}}" class="avatar-link avatar-small author-avatar">
       {{> avatar userId=userId shape="circle"}}
@@ -27,5 +13,4 @@
       </div>
     {{/if}}
   </div>
->>>>>>> upstream/master
 </template>

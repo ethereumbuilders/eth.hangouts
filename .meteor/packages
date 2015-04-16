@@ -24,12 +24,7 @@ iron:router
 meteorhacks:fast-render
 meteorhacks:subs-manager
 meteorhacks:npm
-
-<<<<<<< HEAD
-aldeed:autoform@5.1.0
-=======
 aldeed:autoform@5.1.2
->>>>>>> upstream/master
 aldeed:collection2
 aldeed:simple-schema@1.3.2
 aldeed:template-extension
@@ -54,13 +49,11 @@ useraccounts:unstyled@1.8.1
 tsega:bootstrap3-datetimepicker@3.1.3_1
 momentjs:moment
 aslagle:reactive-table
-<<<<<<< HEAD
-=======
 aramk:tinycolor
 fortawesome:fontawesome
 fourseven:scss
 manuelschoebel:ms-seo
->>>>>>> upstream/master
+
 
 # Testing
 
@@ -100,7 +93,7 @@ telescope-sitemap
 telescope-messages
 telescope-pages
 
-<<<<<<< HEAD
+
 # Custom Packages
 cb-theme-pages
 cb-theme
@@ -112,6 +105,5 @@ mrt:mediaqueries
 ethereum:js
 meteorhacks:sikka
 liberation:flash-telegrams
-=======
-# Custom Packages
->>>>>>> upstream/master
+
+

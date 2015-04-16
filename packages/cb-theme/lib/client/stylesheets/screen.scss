@@ -176,11 +176,12 @@ a#submit.top-submit {text-transform: uppercase; font-weight: bold !important; ba
 
 /*Always Show*/
 .post .post-share {display: block !important;}
+.post .post-share {	height: 30px;}
 .post {background: rgba(2, 0, 0, 0.84) none repeat scroll 0% 0%;}
 .post.sticky {background: #42547B none repeat scroll 0% 0% }
 .post {border-bottom: none!important;}
 /*Hide*/
-.categories-menu, .views-menu { display: none;}
+.categories-menu, .views-menu { display: none!important;}
 .post-discuss {display: none;}
 
 .more-button {background: rgba(2,0,0,0.84)!important;}

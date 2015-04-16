@@ -14,20 +14,12 @@ scheduleCampaign = function (campaign, isTest) {
 			subject = trimWords(subject, wordCount);
 			wordCount--;
 		}
-<<<<<<< HEAD
-		
-=======
 
->>>>>>> upstream/master
     try {
 
       var api = new MailChimp(apiKey);
       var text = htmlToText.fromString(campaign.html, {wordwrap: 130});
-<<<<<<< HEAD
-      var defaultEmail = getSetting('defaultEmail');			
-=======
       var defaultEmail = Settings.get('defaultEmail');
->>>>>>> upstream/master
       var campaignOptions = {
         type: 'regular',
         options: {
@@ -46,11 +38,7 @@ scheduleCampaign = function (campaign, isTest) {
 
       // create campaign
       var mailchimpCampaign = api.call( 'campaigns', 'create', campaignOptions);
-<<<<<<< HEAD
-      
-=======
 
->>>>>>> upstream/master
       console.log( '// Campaign created');
       // console.log(campaign)
 

@@ -4,12 +4,12 @@ $dark-grey:#444444;
   padding: 10px;
 }
 .search {
-  $compressed-width: 120px;
-  $expanded-width: 250px;
+  $compressed-width: 158px;
+  $expanded-width: 290px;
 
   position: relative;
   .search-field {
-    font-size: 14px;
+    font-size: 13px;
     padding: 4px 12px;
     line-height: 1.3;
     border-radius: 20px;
@@ -37,7 +37,7 @@ $dark-grey:#444444;
   &.empty {
     .search-field {
       max-width: $compressed-width;
-      background: rgba(255, 255, 255, 0.1);
+      background: white;
       &:focus {
         background: white;
         max-width: $expanded-width;

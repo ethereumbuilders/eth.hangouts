@@ -1,14 +1,4 @@
 Template[getTemplate('mobile_nav')].helpers({
-<<<<<<< HEAD
-  primaryNav: function () {
-    return _.sortBy(primaryNav, 'order');
-  },
-  secondaryNav: function () {
-    return _.sortBy(secondaryNav, 'order');
-  },
-  getTemplate: function () {
-    return getTemplate(this.template);
-=======
   mobileNav: function () {
     return _.sortBy(mobileNav, 'order');
   },
@@ -20,7 +10,6 @@ Template[getTemplate('mobile_nav')].helpers({
   },
   mobileContext: function () {
     return {mobile: true};
->>>>>>> upstream/master
   }
 });
 

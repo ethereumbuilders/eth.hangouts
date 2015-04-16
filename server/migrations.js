@@ -453,9 +453,6 @@ var migrationsList = {
       console.log("---------------------");
     });
     return i;
-<<<<<<< HEAD
-  }
-=======
   },
   updateUserNames: function () {
     var i = 0;
@@ -524,7 +521,6 @@ var migrationsList = {
     }
     return i;
   },
->>>>>>> upstream/master
 };
 
 // TODO: normalize categories?

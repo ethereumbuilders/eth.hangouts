@@ -2,11 +2,7 @@ AutoForm.hooks({
   submitPostForm: {
 
     before: {
-<<<<<<< HEAD
-      submitPost: function(doc) {
-=======
       method: function(doc) {
->>>>>>> upstream/master
 
         this.template.$('button[type=submit]').addClass('loading');
 
@@ -41,13 +37,8 @@ AutoForm.hooks({
 
     onError: function(operation, error) {
       this.template.$('button[type=submit]').removeClass('loading');
-<<<<<<< HEAD
-      flashMessage(error.message.split('|')[0], 'error'); // workaround because error.details returns undefined
-      clearSeenMessages();
-=======
       Messages.flash(error.message.split('|')[0], 'error'); // workaround because error.details returns undefined
       Messages.clearSeen();
->>>>>>> upstream/master
       // $(e.target).removeClass('disabled');
       if (error.error == 603) {
         var dupePostId = error.reason.split('|')[1];

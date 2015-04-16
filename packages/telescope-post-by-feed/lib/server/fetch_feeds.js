@@ -6,53 +6,13 @@ var iconv = Npm.require('iconv-lite');
 
 var getFirstAdminUser = function() {
   return Meteor.users.findOne({isAdmin: true}, {sort: {createdAt: 1}});
-<<<<<<< HEAD
-}
-
-var handleFeed = function(error, feed) {
-  if (error) return;
-
-  var feedItems = _.first(feed.items, 20); // limit feed to 20 items just in case
-  var userId = this._parser._options.userId;
-  var feedId = this._parser._options.feedId;
-  var categories = this._parser._options.categories;
- 
-  clog('// Parsing RSS feed: '+ feed.title)
-
-  var newItemsCount = 0;
-
-  feedItems.forEach(function(item, index, array) {
-
-    // if item has no id, use the URL to give it one
-    if (!item.id)
-      item.id = item.link;
-
-    // check if post already exists
-    if (!!Posts.findOne({feedItemId: item.id})) {
-      // clog('// Feed item already imported')
-    } else {
-      newItemsCount++;
-
-      var post = {
-        title: he.decode(item.title),
-        url: item.link,
-        feedId: feedId,
-        feedItemId: item.id,
-        userId: userId,
-        categories: categories
-      }
-=======
 };
->>>>>>> upstream/master
 
 var normalizeEncoding = function (contentBuffer) {
   // got from https://github.com/szwacz/sputnik/
   var encoding;
   var content = contentBuffer.toString();
 
-<<<<<<< HEAD
-      // console.log(item)
-=======
   var xmlDeclaration = content.match(/^<\?xml .*\?>/);
   if (xmlDeclaration) {
     var encodingDeclaration = xmlDeclaration[0].match(/encoding=("|').*?("|')/);
@@ -60,7 +20,6 @@ var normalizeEncoding = function (contentBuffer) {
       encoding = encodingDeclaration[0].substring(10, encodingDeclaration[0].length - 1);
     }
   }
->>>>>>> upstream/master
 
   if (encoding && encoding.toLowerCase() !== 'utf-8') {
     try {
@@ -188,11 +147,7 @@ fetchFeeds = function() {
 
     // if feed doesn't specify a user, default to admin
     var userId = !!feed.userId ? feed.userId : getFirstAdminUser()._id;
-<<<<<<< HEAD
-    var categories = feed.categories;
-=======
     var feedCategories = feed.categories;
->>>>>>> upstream/master
     var feedId = feed._id;
 
     try {

@@ -192,12 +192,9 @@
   "username": "Username",
   "display_name": "Display Name",
   "email": "Email",
-<<<<<<< HEAD
   "bio": "I am proficient at or learning these skills",
-=======
   "bio": "Bio",
   "city": "City",
->>>>>>> upstream/master
   "twitter_username": "Twitter Username",
   "github_username": "GitHub Username",
   "site_url" : "Site URL",

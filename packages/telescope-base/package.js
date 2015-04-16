@@ -78,11 +78,7 @@ Package.onUse(function (api) {
     'downvoteMethodCallbacks',
     'cancelUpvoteMethodCallbacks',
     'cancelDownvoteMethodCallbacks',
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> upstream/master
     'userEditRenderedCallbacks',
     'userEditClientCallbacks',
     'userProfileCompleteChecks',
@@ -93,15 +89,13 @@ Package.onUse(function (api) {
     'getTemplate',
     'templates',
 
-<<<<<<< HEAD
-=======
+
     'getIcon',
     'icons',
 
     'colorTable',
     'registerElementColor',
 
->>>>>>> upstream/master
     'themeSettings',
 
     'getVotePower'

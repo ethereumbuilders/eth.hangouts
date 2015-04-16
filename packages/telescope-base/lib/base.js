@@ -409,8 +409,5 @@ preloadSubscriptions = [];
 
 getVotePower = function (user) {
   return 1;
-<<<<<<< HEAD
+
 };
-=======
-};
->>>>>>> upstream/master
