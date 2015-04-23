@@ -246,4 +246,6 @@ form div.controls {
 .post-subscribe.module.grid-block { background: rgba(76,77,78,0.41)!important; padding: 10px !important; &:hover { background: #42547B!important; } }
 a.subscribe-link, a.unsubscribe-link { color: white; font-size: 1.5em; margin: 0 auto; display: block; text-align: center;}
 
-
+.fa-share-square-o:before {
+  content: "\f1e0"!important;
+}

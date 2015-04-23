@@ -41,6 +41,7 @@ Package.onUse(function (api) {
     'lib/client/templates/new_submit_button.html',
     'lib/client/about.js',
     'lib/client/plexus.js',
+    'lib/client/cocreators.js',
     'lib/client/templates/co-creators.js',
     'lib/client/templates/co-creators_link.html'
   ], ['client']);
